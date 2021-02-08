@@ -4,6 +4,7 @@ import Main from "../../pages/Main/Main";
 import Artists from "../../pages/Artists/Artists";
 import Lyrics from "../../pages/Lyrics/Lyrics";
 import Chords from "../../pages/Chords/Chords";
+import './Sections.css'
 
 const Sections = () => {
   return (
