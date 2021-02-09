@@ -34,7 +34,6 @@ const Navbar = () => {
           Menu
         </div>
       </header>
-      <section></section>
     </div>
   );
 };
