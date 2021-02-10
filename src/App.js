@@ -2,16 +2,16 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Sections from "./components/Sections/Sections";
 
-import { Provider } from "./context";
+import { ContextController } from "./context";
 
 function App() {
   return (
-    <Provider>
+    <ContextController>
       <Router>
         <Navbar />
         <Sections />
       </Router>
-    </Provider>
+    </ContextController>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Lyric = (props) => {
+const LyricCard = (props) => {
   const { track } = props;
   return (
     <div className="col-md-6">
@@ -31,4 +31,4 @@ const Lyric = (props) => {
   );
 };
 
-export default Lyric;
+export default LyricCard;
