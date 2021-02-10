@@ -10,7 +10,7 @@ const Sections = () => {
       <Switch>
         <Route path="/" component={Main} exact />
         <Route path="/artists" component={Artists} exact />
-        <Route path="/lyrics" component={Artists} exact />
+        <Route path="/lyrics" component={Lyrics} exact />
         <Route path="/chords" component={Artists} exact />
       </Switch>
   );
